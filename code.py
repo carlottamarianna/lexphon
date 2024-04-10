@@ -7,7 +7,7 @@ they must press a key as quickly as possible.
 import random
 from expyriment import design, control, stimuli
 
-stim = 'operatie.wav'
+operatie = 'operatie.wav'
 
 N_TRIALS = 20
 MIN_WAIT_TIME = 1000
@@ -18,7 +18,7 @@ exp = design.Experiment(name="Visual Detection", text_size=40)
 #control.set_develop_mode(on=True)
 control.initialize(exp)
 
-target = stimuli.Audio(stim)
+target = stimuli.Audio(operatie)
 blankscreen = stimuli.BlankScreen()
 
 instructions = stimuli.TextScreen("Instructions",
