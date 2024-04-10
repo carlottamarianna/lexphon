@@ -8,6 +8,7 @@ import random
 from expyriment import design, control, stimuli
 
 operatie = 'operatie.wav'
+opelakoe = 'opelakoe.wav'
 
 N_TRIALS = 20
 MIN_WAIT_TIME = 1000
@@ -17,6 +18,17 @@ MAX_RESPONSE_DELAY = 2000
 exp = design.Experiment(name="Visual Detection", text_size=40)
 #control.set_develop_mode(on=True)
 control.initialize(exp)
+
+#words = [operatie]
+#pseudos = [opelakoe]
+
+#trials = []
+#for item in words:
+    #trials.append(("W", item, stimuli.TextLine(item)))
+#for item in pseudos:
+    #trials.append(("P", item, stimuli.TextLine(item)))
+
+#random.shuffle(trials)
 
 target = stimuli.Audio(operatie)
 blankscreen = stimuli.BlankScreen()
