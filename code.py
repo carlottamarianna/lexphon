@@ -7,7 +7,7 @@ they must press a key as quickly as possible.
 import random
 from expyriment import design, control, stimuli
 
-stim = 'click.wav'
+stim = 'operatie.wav'
 
 N_TRIALS = 20
 MIN_WAIT_TIME = 1000
