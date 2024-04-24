@@ -59,7 +59,8 @@ exp.keyboard.wait()
 
 
 
-for i_trial in range(0,4):
+
+for i_trial in range(0,7):
     blankscreen.present()
     waiting_time = random.randint(MIN_WAIT_TIME, MAX_WAIT_TIME)
     exp.clock.wait(waiting_time)
@@ -67,7 +68,7 @@ for i_trial in range(0,4):
     target3.present()
     key, rt = exp.keyboard.wait(duration=MAX_RESPONSE_DELAY)
     exp.data.add([i_trial, waiting_time, key, rt])
-    with open('lexphon_results.csv', mode='w', newline='') as file:
+    with open('lexphon_results.csv', mode='a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['trial', 'wait', 'respkey', 'RT'])
         writer.writerow([i_trial, waiting_time, key, rt])
