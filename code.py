@@ -1,7 +1,7 @@
 """ 
 
 At each trial, the participants hear a word/nonword and
-they must press a key as quickly as possible.
+they must press a key as quickly as possible when they hear the target phoneme.
 """
 
 import random
@@ -18,7 +18,7 @@ MIN_WAIT_TIME = 1000
 MAX_WAIT_TIME = 2000
 MAX_RESPONSE_DELAY = 2000
 
-exp = design.Experiment(name="Visual Detection", text_size=40)
+exp = design.Experiment(name="Phonological Detection", text_size=40)
 #control.set_develop_mode(on=True)
 control.initialize(exp)
 
@@ -26,8 +26,8 @@ control.initialize(exp)
 target1 = stimuli.Audio(operatie)
 target2 = stimuli.Audio(opelakoe)
 
-#words = [operatie]
-#pseudos = [opelakoe]
+#words = list[target1,]
+#pseudos = [target2]
 
 #trials = []
 #for item in words:
@@ -47,16 +47,17 @@ instructions = stimuli.TextScreen("Instructions",
 
     Your task is to press the SPACEBAR as quickly as possible when you hear the /p/ sound (We measure your reaction-time).
 
-    There will be {N_TRIALS} trials in total.
-
-    Press the spacebar to start.""")
+    Press the spacebar to hear the sound, then press again the spacebar to start the experiment.""")
+    
+    #example.plot(instructions)
 
 exp.add_data_variable_names(['trial', 'wait', 'respkey', 'RT'])
 
 control.start(skip_ready_screen=True)
 instructions.present()
 exp.keyboard.wait()
-
+#present sound here
+#exp.keyboard.wait()
 
 
 
@@ -68,9 +69,10 @@ for i_trial in range(0,7):
     target3.present()
     key, rt = exp.keyboard.wait(duration=MAX_RESPONSE_DELAY)
     exp.data.add([i_trial, waiting_time, key, rt])
-    with open('lexphon_results.csv', mode='a', newline='') as file:
+
+with open('lexphon_results.csv', mode='a', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(['trial', 'wait', 'respkey', 'RT'])
+        writer.writerow(['trial', 'wait', 'respkey', 'RT', 'word/pseudo'])
         writer.writerow([i_trial, waiting_time, key, rt])
 
 
