@@ -12,6 +12,8 @@ from expyriment import design, control, stimuli
 example = 'example.wav'
 operatie = 'operatie.wav'
 opelakoe = 'opelakoe.wav'
+episode = 'episode.wav'
+apozabe = 'apozabe.wav'
 
 
 
@@ -27,16 +29,18 @@ control.initialize(exp)
 ex = stimuli.Audio(example)
 target1 = stimuli.Audio(operatie)
 target2 = stimuli.Audio(opelakoe)
+target3 = stimuli.Audio(episode)
+target4 = stimuli.Audio(apozabe)
 
 
 
 blankscreen = stimuli.BlankScreen()
 
-targlist = [target1,target2] *(N_TRIALS //2)
+targlist = [target1,target2, target3, target4] *(N_TRIALS //2)
 random.shuffle(targlist)
 
-words = [target1]
-pseudos = [target2]
+words = [target1, target3]
+pseudos = [target2, target4]
 
 
 #if item in targlist == :
@@ -52,7 +56,7 @@ instructions = stimuli.TextScreen("Instructions",
     Now press the spacebar to hear an example of the /p/ sound. 
     (Please note that in this example you will hear the  sound accompanied by a random vowel, while in the actual experiment you will just have to look for the consonantal sound). 
     
-    
+
     When you have finished listening to the example, press again the spacebar to start the experiment.""")
    
 
@@ -71,12 +75,12 @@ for i_trial in range(N_TRIALS):
     blankscreen.present()
     waiting_time = random.randint(MIN_WAIT_TIME, MAX_WAIT_TIME)
     exp.clock.wait(waiting_time)
-    target3 = targlist[i_trial]
-    target3.present()
+    target = targlist[i_trial]
+    target.present()
     key, rt = exp.keyboard.wait(duration=MAX_RESPONSE_DELAY)
-    if target3 in words:
+    if target in words:
         item = "WWW"
-    elif target3 in pseudos:
+    elif target in pseudos:
         item = "PPP"
     else:
         item = "NA"
