@@ -9,8 +9,10 @@ import pandas
 import csv
 from expyriment import design, control, stimuli
 
+example = 'example.wav'
 operatie = 'operatie.wav'
 opelakoe = 'opelakoe.wav'
+
 
 
 N_TRIALS = 20
@@ -22,7 +24,7 @@ exp = design.Experiment(name="Phonological Detection", text_size=40)
 #control.set_develop_mode(on=True)
 control.initialize(exp)
 
-
+ex = stimuli.Audio(example)
 target1 = stimuli.Audio(operatie)
 target2 = stimuli.Audio(opelakoe)
 
@@ -45,19 +47,22 @@ pseudos = [target2]
 instructions = stimuli.TextScreen("Instructions",
     f"""From time to time, you will hear a word or a non-word.
 
-    Your task is to press the SPACEBAR as quickly as possible when you hear the /p/ sound (We measure your reaction-time).
+    Your task will be to press the SPACEBAR as quickly as possible when you hear the /p/ sound (we measure your reaction-time).
 
-    Press the spacebar to hear the sound, then press again the spacebar to start the experiment.""")
+    Now press the spacebar to hear an example of the /p/ sound. 
+    (Please note that in this example you will hear the  sound accompanied by a random vowel, while in the actual experiment you will just have to look for the consonantal sound). 
     
-    #example.plot(instructions)
+    
+    When you have finished listening to the example, press again the spacebar to start the experiment.""")
+   
 
 exp.add_data_variable_names(['trial', 'wait', 'respkey', 'RT', 'word/pseudo'])
 
 control.start(skip_ready_screen=True)
 instructions.present()
 exp.keyboard.wait()
-#present sound here
-#exp.keyboard.wait()
+ex.present()
+exp.keyboard.wait()
 
 results = []
 
