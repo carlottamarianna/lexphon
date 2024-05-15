@@ -14,6 +14,8 @@ operatie = 'operatie.wav'
 opelakoe = 'opelakoe.wav'
 episode = 'episode.wav'
 apozabe = 'apozabe.wav'
+sinaasappel = 'sinaasappel.wav'
+zimaafopper = 'zimaafopper.wav'
 
 
 
@@ -31,22 +33,23 @@ target1 = stimuli.Audio(operatie)
 target2 = stimuli.Audio(opelakoe)
 target3 = stimuli.Audio(episode)
 target4 = stimuli.Audio(apozabe)
+target5 = stimuli.Audio(sinaasappel)
+target6 = stimuli.Audio(zimaafopper)
 
 
 
 blankscreen = stimuli.BlankScreen()
 
-targlist = [target1,target2, target3, target4] *(N_TRIALS //2)
+targlist = [target1,target2, target3, target4, target5, target6] *(N_TRIALS //2)
 random.shuffle(targlist)
 
-words = [target1, target3]
-pseudos = [target2, target4]
+words = [target1, target3, target5]
+pseudos = [target2, target4, target6]
+
+before_UP = [target1, target2, target3, target4]
+after_UP = [target5, target6]
 
 
-#if item in targlist == :
-    #trials.append(("W", item, stimuli.TextLine(item)))
-#else:
-    #trials.append(("P", item, stimuli.TextLine(item)))
 
 instructions = stimuli.TextScreen("Instructions",
     f"""From time to time, you will hear a word or a non-word.
@@ -60,7 +63,7 @@ instructions = stimuli.TextScreen("Instructions",
     When you have finished listening to the example, press again the spacebar to start the experiment.""")
    
 
-exp.add_data_variable_names(['trial', 'wait', 'respkey', 'RT', 'word/pseudo'])
+exp.add_data_variable_names(['trial', 'wait', 'respkey', 'RT', 'word/pseudo', 'where'])
 
 control.start(skip_ready_screen=True)
 instructions.present()
@@ -79,17 +82,25 @@ for i_trial in range(N_TRIALS):
     target.present()
     key, rt = exp.keyboard.wait(duration=MAX_RESPONSE_DELAY)
     if target in words:
-        item = "WWW"
+        item = "WORD"
     elif target in pseudos:
-        item = "PPP"
+        item = "PSEUDO"
     else:
         item = "NA"
-    exp.data.add([i_trial, waiting_time, key, rt, item])
-    results.append([i_trial, waiting_time, key, rt, item])
+
+    if target in before_UP:
+        where = "before UP"
+    elif target in after_UP:
+        where = "after UP"
+    else:
+        where = "NA"
+        
+    exp.data.add([i_trial, waiting_time, key, rt, item, where])
+    results.append([i_trial, waiting_time, key, rt, item, where])
 
 with open('lexphon_results.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(['trial', 'wait', 'respkey', 'RT', 'word/pseudo'])
+        writer.writerow(['trial', 'wait', 'respkey', 'RT', 'word/pseudo', 'where'])
         writer.writerows(results)
 
 
