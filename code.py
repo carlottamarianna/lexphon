@@ -26,21 +26,21 @@ control.initialize(exp)
 target1 = stimuli.Audio(operatie)
 target2 = stimuli.Audio(opelakoe)
 
-#words = list[target1,]
-#pseudos = [target2]
 
-#trials = []
-#for item in words:
-    #trials.append(("W", item, stimuli.TextLine(item)))
-#for item in pseudos:
-    #trials.append(("P", item, stimuli.TextLine(item)))
-
-##random.shuffle(trials)
 
 blankscreen = stimuli.BlankScreen()
 
 targlist = [target1,target2] *(N_TRIALS //2)
 random.shuffle(targlist)
+
+words = [target1]
+pseudos = [target2]
+
+
+#if item in targlist == :
+    #trials.append(("W", item, stimuli.TextLine(item)))
+#else:
+    #trials.append(("P", item, stimuli.TextLine(item)))
 
 instructions = stimuli.TextScreen("Instructions",
     f"""From time to time, you will hear a word or a non-word.
@@ -51,7 +51,7 @@ instructions = stimuli.TextScreen("Instructions",
     
     #example.plot(instructions)
 
-exp.add_data_variable_names(['trial', 'wait', 'respkey', 'RT'])
+exp.add_data_variable_names(['trial', 'wait', 'respkey', 'RT', 'word/pseudo'])
 
 control.start(skip_ready_screen=True)
 instructions.present()
@@ -59,21 +59,30 @@ exp.keyboard.wait()
 #present sound here
 #exp.keyboard.wait()
 
+results = []
 
 
-for i_trial in range(0,7):
+for i_trial in range(N_TRIALS):
     blankscreen.present()
     waiting_time = random.randint(MIN_WAIT_TIME, MAX_WAIT_TIME)
     exp.clock.wait(waiting_time)
     target3 = targlist[i_trial]
     target3.present()
     key, rt = exp.keyboard.wait(duration=MAX_RESPONSE_DELAY)
-    exp.data.add([i_trial, waiting_time, key, rt])
+    if target3 in words:
+        item = "WWW"
+    elif target3 in pseudos:
+        item = "PPP"
+    else:
+        item = "NA"
+    exp.data.add([i_trial, waiting_time, key, rt, item])
+    results.append([i_trial, waiting_time, key, rt, item])
 
-with open('lexphon_results.csv', mode='a', newline='') as file:
+with open('lexphon_results.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['trial', 'wait', 'respkey', 'RT', 'word/pseudo'])
-        writer.writerow([i_trial, waiting_time, key, rt])
+        writer.writerows(results)
+
 
 
 control.end()
