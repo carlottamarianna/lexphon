@@ -1,0 +1,80 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 22 2024 11:59:06
+#sha1: cecc1d
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10406,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,RT,word/pseudo,where
+#design: block_cnt,block_id,trial_cnt,trial_id
+10406,design,logged,
+10406,Experiment,started
+10464,Stimulus,presented,18
+11083,Keyboard,received,32,wait
+11085,Stimulus,played,b'example.wav'
+14146,Keyboard,received,32,wait
+14199,Stimulus,presented,17
+15596,Stimulus,played,b'vedemsgop.wav'
+17060,Keyboard,received,32,wait
+17114,Stimulus,presented,17
+18451,Stimulus,played,b'farop.wav'
+19962,Keyboard,received,32,wait
+20013,Stimulus,presented,17
+21183,Stimulus,played,b'namestlipt.wav'
+22604,Keyboard,received,32,wait
+22662,Stimulus,presented,17
+24329,Stimulus,played,b'galop.wav'
+25872,Keyboard,received,32,wait
+25927,Stimulus,presented,17
+27515,Stimulus,played,b'opelakoe.wav'
+29189,Keyboard,received,32,wait
+29242,Stimulus,presented,17
+30292,Stimulus,played,b'vedemsgop.wav'
+31952,Keyboard,received,32,wait
+32008,Stimulus,presented,17
+33520,Stimulus,played,b'episode.wav'
+34894,Keyboard,received,32,wait
+34940,Stimulus,presented,17
+36278,Stimulus,played,b'wetenschap.wav'
+38271,Keyboard,received,32,wait
+38322,Stimulus,presented,17
+39562,Stimulus,played,b'farop.wav'
+40746,Keyboard,received,32,wait
+40804,Stimulus,presented,17
+42082,Stimulus,played,b'manuscript.wav'
+43864,Keyboard,received,32,wait
+43919,Stimulus,presented,17
+45268,Stimulus,played,b'professor.wav'
+47168,Keyboard,received,32,wait
+47218,Stimulus,presented,17
+48483,Stimulus,played,b'pafime.wav'
+50207,Keyboard,received,32,wait
+50266,Stimulus,presented,17
+51941,Stimulus,played,b'galop.wav'
+53450,Keyboard,received,32,wait
+53498,Stimulus,presented,17
+55338,Stimulus,played,b'plogeffol.wav'
+57276,Keyboard,received,32,wait
+57330,Stimulus,presented,17
+58656,Stimulus,played,b'vedemsgop.wav'
+60187,Keyboard,received,32,wait
+60245,Stimulus,presented,17
+61923,Stimulus,played,b'zimaafopper.wav'
+63679,Keyboard,received,32,wait
+63726,Stimulus,presented,17
+64978,Stimulus,played,b'pafime.wav'
+66815,Keyboard,received,32,wait
+66859,Stimulus,presented,17
+68582,Stimulus,played,b'sinaasappel.wav'
+70584,Keyboard,received,None,wait
+70640,Stimulus,presented,17
+72339,Stimulus,played,b'manuscript.wav'
+74007,Keyboard,received,32,wait
+74055,Stimulus,presented,17
+75767,Stimulus,played,b'pafime.wav'
+77558,Keyboard,received,32,wait
+77561,Experiment,ended
+77575,Data,saved
+77587,Stimulus,presented,21

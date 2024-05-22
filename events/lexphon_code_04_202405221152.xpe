@@ -1,0 +1,65 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 22 2024 11:52:39
+#sha1: 5f01d7
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10334,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,wait,respkey,RT,word/pseudo,where
+#design: block_cnt,block_id,trial_cnt,trial_id
+10334,design,logged,
+10334,Experiment,started
+10389,Stimulus,presented,18
+11030,Keyboard,received,32,wait
+11033,Stimulus,played,b'example.wav'
+14367,Keyboard,received,32,wait
+14406,Stimulus,presented,17
+16034,Stimulus,played,b'pagina.wav'
+18035,Keyboard,received,None,wait
+18072,Stimulus,presented,17
+19929,Stimulus,played,b'opelakoe.wav'
+21351,Keyboard,received,32,wait
+21405,Stimulus,presented,17
+23301,Stimulus,played,b'plogeffol.wav'
+25248,Keyboard,received,32,wait
+25303,Stimulus,presented,17
+26940,Stimulus,played,b'pagina.wav'
+28941,Keyboard,received,None,wait
+28985,Stimulus,presented,17
+30603,Stimulus,played,b'plogeffol.wav'
+32568,Keyboard,received,32,wait
+32616,Stimulus,presented,17
+34288,Stimulus,played,b'sinaasappel.wav'
+36292,Keyboard,received,None,wait
+36348,Stimulus,presented,17
+37835,Stimulus,played,b'opelakoe.wav'
+39411,Keyboard,received,32,wait
+39463,Stimulus,presented,17
+41073,Stimulus,played,b'wetenschap.wav'
+42905,Keyboard,received,32,wait
+42962,Stimulus,presented,17
+44476,Stimulus,played,b'apozabe.wav'
+45985,Keyboard,received,32,wait
+46026,Stimulus,presented,17
+47402,Stimulus,played,b'opelakoe.wav'
+48888,Keyboard,received,32,wait
+48943,Stimulus,presented,17
+50327,Stimulus,played,b'farop.wav'
+51371,Keyboard,received,32,wait
+51425,Stimulus,presented,17
+52785,Stimulus,played,b'zimaafopper.wav'
+54720,Keyboard,received,32,wait
+54773,Stimulus,presented,17
+56219,Stimulus,played,b'plogeffol.wav'
+58220,Keyboard,received,None,wait
+58272,Stimulus,presented,17
+60249,Stimulus,played,b'operatie.wav'
+61402,Keyboard,received,32,wait
+61454,Stimulus,presented,17
+62721,Stimulus,played,b'manuscript.wav'
+64454,Keyboard,received,32,wait
+64456,Experiment,ended
+64461,Data,saved
+64486,Stimulus,presented,21

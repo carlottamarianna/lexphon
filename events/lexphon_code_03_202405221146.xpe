@@ -1,0 +1,80 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 22 2024 11:46:33
+#sha1: 3300db
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10820,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,wait,respkey,RT,word/pseudo,where
+#design: block_cnt,block_id,trial_cnt,trial_id
+10820,design,logged,
+10820,Experiment,started
+10875,Stimulus,presented,18
+11521,Keyboard,received,32,wait
+11534,Stimulus,played,b'example.wav'
+15035,Keyboard,received,32,wait
+15092,Stimulus,presented,17
+16556,Stimulus,played,b'sinaasappel.wav'
+18558,Keyboard,received,None,wait
+18607,Stimulus,presented,17
+19939,Stimulus,played,b'namestlipt.wav'
+21361,Keyboard,received,32,wait
+21406,Stimulus,presented,17
+23184,Stimulus,played,b'namestlipt.wav'
+24243,Keyboard,received,32,wait
+24287,Stimulus,presented,17
+25754,Stimulus,played,b'manuscript.wav'
+26979,Keyboard,received,32,wait
+27037,Stimulus,presented,17
+28073,Stimulus,played,b'pagina.wav'
+30074,Keyboard,received,None,wait
+30119,Stimulus,presented,17
+31295,Stimulus,played,b'professor.wav'
+33294,Keyboard,received,32,wait
+33350,Stimulus,presented,17
+34841,Stimulus,played,b'pagina.wav'
+36843,Keyboard,received,None,wait
+36899,Stimulus,presented,17
+38273,Stimulus,played,b'sinaasappel.wav'
+40274,Keyboard,received,None,wait
+40312,Stimulus,presented,17
+42094,Stimulus,played,b'manuscript.wav'
+43759,Keyboard,received,32,wait
+43812,Stimulus,presented,17
+45806,Stimulus,played,b'farop.wav'
+47023,Keyboard,received,32,wait
+47078,Stimulus,presented,17
+48479,Stimulus,played,b'wetenschap.wav'
+50200,Keyboard,received,32,wait
+50259,Stimulus,presented,17
+51904,Stimulus,played,b'galop.wav'
+53355,Keyboard,received,32,wait
+53408,Stimulus,presented,17
+55249,Stimulus,played,b'sinaasappel.wav'
+57250,Keyboard,received,None,wait
+57289,Stimulus,presented,17
+58641,Stimulus,played,b'wetenschap.wav'
+60642,Keyboard,received,None,wait
+60688,Stimulus,presented,17
+62398,Stimulus,played,b'pagina.wav'
+64399,Keyboard,received,None,wait
+64435,Stimulus,presented,17
+66110,Stimulus,played,b'operatie.wav'
+67373,Keyboard,received,32,wait
+67435,Stimulus,presented,17
+69421,Stimulus,played,b'vedemsgop.wav'
+71126,Keyboard,received,32,wait
+71183,Stimulus,presented,17
+73080,Stimulus,played,b'episode.wav'
+74393,Keyboard,received,32,wait
+74448,Stimulus,presented,17
+76061,Stimulus,played,b'apozabe.wav'
+77306,Keyboard,received,32,wait
+77346,Stimulus,presented,17
+78699,Stimulus,played,b'zimaafopper.wav'
+80260,Keyboard,received,32,wait
+80272,Experiment,ended
+80278,Data,saved
+80296,Stimulus,presented,21

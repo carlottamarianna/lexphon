@@ -1,0 +1,31 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpd-file, coding: cp1252
+#date: Wed May 22 2024 11:59:06
+#--EXPERIMENT INFO
+#e mainfile: lexphon_code.py
+#e sha1: cecc1d
+#e modules: 
+#e Experiment: Phonological Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 5
+subject_id,trial,RT,word/pseudo,where
+5,0,1463,PSEUDO,offset
+5,1,1509,PSEUDO,offset
+5,2,1420,PSEUDO,after UP
+5,3,1542,WORD,offset
+5,4,1673,PSEUDO,before UP
+5,5,1659,PSEUDO,offset
+5,6,1373,WORD,before UP
+5,7,1991,WORD,offset
+5,8,1184,PSEUDO,offset
+5,9,1781,WORD,after UP
+5,10,1898,WORD,onset
+5,11,1722,PSEUDO,onset
+5,12,1508,WORD,offset
+5,13,1936,PSEUDO,onset
+5,14,1530,PSEUDO,offset
+5,15,1754,PSEUDO,after UP
+5,16,1836,PSEUDO,onset
+5,17,None,WORD,after UP
+5,18,1667,WORD,after UP
+5,19,1790,PSEUDO,onset
