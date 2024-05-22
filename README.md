@@ -167,6 +167,27 @@ control.end()
 
 **A SAMPLE OF RESULTS**
 
-
+|trial |RT   | word/pseudo | where    |
+|------|-----|-------------|------    |
+|0     |1463 |PSEUDO       |offset    |
+|1     |1509 |PSEUDO       |offset    |
+|2     |1420 |PSEUDO       |after UP  |
+|3     |1542 |WORD         |offset    |
+|4     |1673 |PSEUDO       |before UP |
+|5     |1659 |PSEUDO       |offset    |
+|6     |1373 |WORD         |before UP |
+|7     |1991 |WORD         |offset    |
+|8     |1184 |PSEUDO       |offset    |
+|9     |1781 |WORD         |after UP  |
+|10    |1898 |WORD         |onset     |
+|11    |1722 |PSEUDO       |onset     |
+|12    |1508 |WORD         |offset    |
+|13    |1936 |PSEUDO       |onset     |
+|14    |1530 |PSEUDO       |offset    |
+|15    |1754 |PSEUDO       |after UP  |
+|16    |1836 |PSEUDO       |onset     |
+|17    |     |WORD         |after UP  |
+|18    |1667 |WORD         |after UP  | 
+|19    |1790 |PSEUDO       |onset     |
 
 **HOW TO INTEPRET RESULTS**
