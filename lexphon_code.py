@@ -16,10 +16,12 @@ episode = 'episode.wav'
 apozabe = 'apozabe.wav'
 sinaasappel = 'sinaasappel.wav'
 zimaafopper = 'zimaafopper.wav'
+manuscript = 'manuscript.wav'
+namestlipt = 'namestlipt.wav'
 
 
 
-N_TRIALS = 20
+N_TRIALS = 15
 MIN_WAIT_TIME = 1000
 MAX_WAIT_TIME = 2000
 MAX_RESPONSE_DELAY = 2000
@@ -35,19 +37,21 @@ target3 = stimuli.Audio(episode)
 target4 = stimuli.Audio(apozabe)
 target5 = stimuli.Audio(sinaasappel)
 target6 = stimuli.Audio(zimaafopper)
+target7 = stimuli.Audio(manuscript)
+target8 = stimuli.Audio(namestlipt)
 
 
 
 blankscreen = stimuli.BlankScreen()
 
-targlist = [target1,target2, target3, target4, target5, target6] *(N_TRIALS //2)
+targlist = [target1,target2, target3, target4, target5, target6, target7, target8] *(N_TRIALS //2)
 random.shuffle(targlist)
 
-words = [target1, target3, target5]
-pseudos = [target2, target4, target6]
+words = [target1, target3, target5, target7]
+pseudos = [target2, target4, target6, target8]
 
 before_UP = [target1, target2, target3, target4]
-after_UP = [target5, target6]
+after_UP = [target5, target6, target7, target8]
 
 
 
