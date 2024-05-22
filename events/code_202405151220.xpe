@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 12:20:51
+#sha1: 90ae92
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+4389,stderr,received,'Traceback (most recent call last):'
+4389,stderr,received,'  File "code.py", line 49, in <module>'
+4390,stderr,received,'    before_UP = [target, target2, target3, target4]'
+4390,stderr,received,"NameError: name 'target' is not defined"

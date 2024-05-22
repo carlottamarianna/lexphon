@@ -1,0 +1,39 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 11:23:11
+#sha1: b1f75b
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10547,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10547,design,logged,
+10547,Experiment,started
+10637,Stimulus,presented,3
+11149,Keyboard,received,32,wait
+11225,Stimulus,presented,2
+12987,Stimulus,played,b'operatie.wav'
+14102,Keyboard,received,32,wait
+14182,Stimulus,presented,2
+16112,Stimulus,played,b'opelakoe.wav'
+17415,Keyboard,received,32,wait
+17497,Stimulus,presented,2
+18814,Stimulus,played,b'opelakoe.wav'
+20339,Keyboard,received,32,wait
+20446,Stimulus,presented,2
+21888,Stimulus,played,b'opelakoe.wav'
+23308,Keyboard,received,32,wait
+23394,Stimulus,presented,2
+24879,Stimulus,played,b'opelakoe.wav'
+26168,Keyboard,received,32,wait
+26243,Stimulus,presented,2
+27767,Stimulus,played,b'opelakoe.wav'
+29086,Keyboard,received,32,wait
+29175,Stimulus,presented,2
+31168,Stimulus,played,b'opelakoe.wav'
+32474,Keyboard,received,32,wait
+32487,Experiment,ended
+32496,Data,saved
+32524,Stimulus,presented,6

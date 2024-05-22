@@ -1,0 +1,19 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 11:09:20
+#sha1: 03674c
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10970,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,wait,respkey,RT,word/pseudo
+#design: block_cnt,block_id,trial_cnt,trial_id
+10970,design,logged,
+10970,Experiment,started
+11016,Stimulus,presented,3
+11798,Keyboard,received,32,wait
+11799,stderr,received,'Traceback (most recent call last):'
+11799,stderr,received,'  File "code.py", line 65, in <module>'
+11799,stderr,received,'    for i_trial in N_TRIALS:'
+11799,stderr,received,"TypeError: 'int' object is not iterable"

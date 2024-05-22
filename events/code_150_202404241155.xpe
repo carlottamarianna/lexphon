@@ -1,0 +1,33 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 11:55:33
+#sha1: c9f149
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10576,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10576,design,logged,
+10576,Experiment,started
+10666,Stimulus,presented,3
+11101,Keyboard,received,13,wait
+11167,Stimulus,presented,2
+12358,Stimulus,played,b'operatie.wav'
+13402,Keyboard,received,32,wait
+13484,Stimulus,presented,2
+14853,Stimulus,played,b'opelakoe.wav'
+16183,Keyboard,received,32,wait
+16266,Stimulus,presented,2
+17638,Stimulus,played,b'opelakoe.wav'
+18991,Keyboard,received,32,wait
+19063,Stimulus,presented,2
+20958,Stimulus,played,b'opelakoe.wav'
+21078,Keyboard,received,32,wait
+21164,Stimulus,presented,2
+22931,Stimulus,played,b'operatie.wav'
+23984,Keyboard,received,32,wait
+23986,Experiment,ended
+24004,Data,saved
+24029,Stimulus,presented,6

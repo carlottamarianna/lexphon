@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpd-file, coding: cp1252
+#date: Wed May 15 2024 11:48:57
+#--EXPERIMENT INFO
+#e mainfile: code.py
+#e sha1: a40ede
+#e modules: 
+#e Experiment: Phonological Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 170
+subject_id,trial,wait,respkey,RT,word/pseudo

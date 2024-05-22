@@ -1,0 +1,15 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 10:29:51
+#sha1: 8809f1
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+5557,stderr,received,'Traceback (most recent call last):'
+5557,stderr,received,'  File "code.py", line 25, in <module>'
+5558,stderr,received,'    target1 = stimuli.Audio(words)'
+5558,stderr,received,'  File "C:\\Users\\Utente\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 49, in __init__'
+5559,stderr,received,"    if os.path.splitext(filename)[1] not in ('.wav', '.ogg'):"
+5559,stderr,received,'  File "C:\\Users\\Utente\\anaconda3\\envs\\expyriment\\lib\\ntpath.py", line 202, in splitext'
+5559,stderr,received,'    p = os.fspath(p)'
+5560,stderr,received,'TypeError: expected str, bytes or os.PathLike object, not list'

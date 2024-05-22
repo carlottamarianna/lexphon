@@ -1,0 +1,26 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 10 2024 11:26:36
+#sha1: bc6506
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10905,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10905,design,logged,
+10905,Experiment,started
+10970,Stimulus,presented,2
+13786,Keyboard,received,32,wait
+13863,Stimulus,presented,1
+15144,stderr,received,'Traceback (most recent call last):'
+15144,stderr,received,'  File "code.py", line 43, in <module>'
+15145,stderr,received,'    target.present()'
+15145,stderr,received,'  File "C:\\Users\\Utente\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 178, in present'
+15147,stderr,received,'    self.play(log_event_tag=log_event_tag)'
+15147,stderr,received,'  File "C:\\Users\\Utente\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 146, in play'
+15147,stderr,received,'    self.preload()'
+15147,stderr,received,'  File "C:\\Users\\Utente\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 109, in preload'
+15148,stderr,received,'    self._file = mixer.Sound(f)'
+15148,stderr,received,'TypeError: Unrecognized argument (type _io.BufferedReader)'

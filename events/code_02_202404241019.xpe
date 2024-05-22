@@ -1,0 +1,24 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 10:19:38
+#sha1: eee4a6
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10898,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10898,design,logged,
+10898,Experiment,started
+10999,Stimulus,presented,3
+12427,Keyboard,received,32,wait
+12514,Stimulus,presented,2
+14364,Stimulus,presented,1
+16367,Keyboard,received,None,wait
+16462,Stimulus,presented,2
+17929,Stimulus,presented,0
+19931,Keyboard,received,None,wait
+19931,Experiment,ended
+19950,Data,saved
+19977,Stimulus,presented,6

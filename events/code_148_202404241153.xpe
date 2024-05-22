@@ -1,0 +1,22 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 11:53:02
+#sha1: b272e6
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10457,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10457,design,logged,
+10457,Experiment,started
+10554,Stimulus,presented,3
+12270,Keyboard,received,32,wait
+12370,Stimulus,presented,2
+14141,Stimulus,played,b'opelakoe.wav'
+16143,Keyboard,received,None,wait
+16145,stderr,received,'Traceback (most recent call last):'
+16146,stderr,received,'  File "code.py", line 74, in <module>'
+16147,stderr,received,'    writer.writerow([i_trial, waiting_time, key, rt])'
+16147,stderr,received,'ValueError: I/O operation on closed file.'

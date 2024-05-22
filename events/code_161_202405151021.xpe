@@ -1,0 +1,19 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 10:21:55
+#sha1: e6ce4b
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10668,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,wait,respkey,RT,word/pseudo
+#design: block_cnt,block_id,trial_cnt,trial_id
+10668,design,logged,
+10668,Experiment,started
+10735,Stimulus,presented,5
+11268,Keyboard,received,32,wait
+11268,stderr,received,'Traceback (most recent call last):'
+11268,stderr,received,'  File "code.py", line 64, in <module>'
+11269,stderr,received,'    for i_trial, item in range(0,7):'
+11269,stderr,received,'TypeError: cannot unpack non-iterable int object'

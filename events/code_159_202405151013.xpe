@@ -1,0 +1,60 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 10:13:17
+#sha1: 191e75
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10779,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10780,design,logged,
+10780,Experiment,started
+10873,Stimulus,presented,5
+12287,Keyboard,received,32,wait
+12370,Stimulus,presented,4
+14033,Stimulus,played,b'operatie.wav'
+15103,Keyboard,received,32,wait
+15185,Stimulus,presented,4
+16892,Stimulus,played,b'operatie.wav'
+17777,Keyboard,received,32,wait
+17868,Stimulus,presented,4
+19427,Stimulus,played,b'operatie.wav'
+20483,Keyboard,received,32,wait
+20566,Stimulus,presented,4
+21994,Stimulus,played,b'operatie.wav'
+22928,Keyboard,received,32,wait
+23015,Stimulus,presented,4
+24587,Stimulus,played,b'operatie.wav'
+25448,Keyboard,received,32,wait
+25531,Stimulus,presented,4
+26793,Stimulus,played,b'operatie.wav'
+27675,Keyboard,received,32,wait
+27763,Stimulus,presented,4
+29412,Stimulus,played,b'opelakoe.wav'
+30705,Keyboard,received,32,wait
+30777,Stimulus,presented,4
+32628,Stimulus,played,b'opelakoe.wav'
+33910,Keyboard,received,32,wait
+33994,Stimulus,presented,4
+35654,Stimulus,played,b'operatie.wav'
+36579,Keyboard,received,32,wait
+36659,Stimulus,presented,4
+37996,Stimulus,played,b'operatie.wav'
+38921,Keyboard,received,32,wait
+39008,Stimulus,presented,4
+40432,Stimulus,played,b'opelakoe.wav'
+41701,Keyboard,received,32,wait
+41773,Stimulus,presented,4
+42997,Stimulus,played,b'opelakoe.wav'
+44446,Keyboard,received,32,wait
+44539,Stimulus,presented,4
+45767,Stimulus,played,b'opelakoe.wav'
+47398,Keyboard,received,32,wait
+47471,Stimulus,presented,4
+49217,Stimulus,played,b'opelakoe.wav'
+50689,Keyboard,received,32,wait
+50726,Experiment,ended
+50734,Data,saved
+50753,Stimulus,presented,8

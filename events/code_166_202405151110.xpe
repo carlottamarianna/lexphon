@@ -1,0 +1,78 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 11:10:25
+#sha1: bfeeae
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10308,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,wait,respkey,RT,word/pseudo
+#design: block_cnt,block_id,trial_cnt,trial_id
+10308,design,logged,
+10308,Experiment,started
+10365,Stimulus,presented,3
+11417,Keyboard,received,32,wait
+11462,Stimulus,presented,2
+12734,Stimulus,played,b'opelakoe.wav'
+14372,Keyboard,received,32,wait
+14429,Stimulus,presented,2
+15705,Stimulus,played,b'operatie.wav'
+16640,Keyboard,received,32,wait
+16694,Stimulus,presented,2
+18359,Stimulus,played,b'opelakoe.wav'
+20025,Keyboard,received,32,wait
+20076,Stimulus,presented,2
+21826,Stimulus,played,b'operatie.wav'
+23166,Keyboard,received,32,wait
+23225,Stimulus,presented,2
+24535,Stimulus,played,b'opelakoe.wav'
+25814,Keyboard,received,32,wait
+25857,Stimulus,presented,2
+26906,Stimulus,played,b'opelakoe.wav'
+28268,Keyboard,received,32,wait
+28323,Stimulus,presented,2
+29751,Stimulus,played,b'operatie.wav'
+30820,Keyboard,received,32,wait
+30871,Stimulus,presented,2
+31950,Stimulus,played,b'operatie.wav'
+32995,Keyboard,received,32,wait
+33037,Stimulus,presented,2
+34826,Stimulus,played,b'operatie.wav'
+36113,Keyboard,received,32,wait
+36169,Stimulus,presented,2
+37681,Stimulus,played,b'operatie.wav'
+38768,Keyboard,received,32,wait
+38818,Stimulus,presented,2
+40579,Stimulus,played,b'opelakoe.wav'
+41953,Keyboard,received,32,wait
+42000,Stimulus,presented,2
+43077,Stimulus,played,b'opelakoe.wav'
+44824,Keyboard,received,32,wait
+44882,Stimulus,presented,2
+46771,Stimulus,played,b'opelakoe.wav'
+48264,Keyboard,received,32,wait
+48314,Stimulus,presented,2
+49751,Stimulus,played,b'operatie.wav'
+50889,Keyboard,received,32,wait
+50946,Stimulus,presented,2
+52549,Stimulus,played,b'opelakoe.wav'
+53903,Keyboard,received,32,wait
+53943,Stimulus,presented,2
+55206,Stimulus,played,b'operatie.wav'
+55339,Keyboard,received,32,wait
+55394,Stimulus,presented,2
+56434,Stimulus,played,b'operatie.wav'
+57423,Keyboard,received,32,wait
+57476,Stimulus,presented,2
+59142,Stimulus,played,b'operatie.wav'
+60175,Keyboard,received,32,wait
+60225,Stimulus,presented,2
+61910,Stimulus,played,b'opelakoe.wav'
+63471,Keyboard,received,32,wait
+63523,Stimulus,presented,2
+65321,Stimulus,played,b'opelakoe.wav'
+66740,Keyboard,received,32,wait
+66751,Experiment,ended
+66756,Data,saved
+66772,Stimulus,presented,6

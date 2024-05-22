@@ -1,0 +1,16 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpd-file, coding: cp1252
+#date: Wed Apr 24 2024 11:55:33
+#--EXPERIMENT INFO
+#e mainfile: code.py
+#e sha1: c9f149
+#e modules: 
+#e Experiment: Visual Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 150
+subject_id,trial,wait,respkey,RT
+150,0,1190,32,1042
+150,1,1367,32,1329
+150,2,1371,32,1351
+150,3,1895,32,118
+150,4,1767,32,1052

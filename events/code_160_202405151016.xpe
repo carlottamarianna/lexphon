@@ -1,0 +1,60 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 10:16:41
+#sha1: 9da723
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10584,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,wait,respkey,RT,word/pseudo
+#design: block_cnt,block_id,trial_cnt,trial_id
+10584,design,logged,
+10584,Experiment,started
+10656,Stimulus,presented,5
+11987,Keyboard,received,32,wait
+12054,Stimulus,presented,4
+13460,Stimulus,played,b'opelakoe.wav'
+15464,Keyboard,received,None,wait
+15534,Stimulus,presented,4
+17070,Stimulus,played,b'opelakoe.wav'
+18397,Keyboard,received,32,wait
+18451,Stimulus,presented,4
+19907,Stimulus,played,b'operatie.wav'
+20912,Keyboard,received,32,wait
+20983,Stimulus,presented,4
+22264,Stimulus,played,b'operatie.wav'
+23218,Keyboard,received,32,wait
+23299,Stimulus,presented,4
+24863,Stimulus,played,b'operatie.wav'
+25818,Keyboard,received,32,wait
+25897,Stimulus,presented,4
+27200,Stimulus,played,b'operatie.wav'
+27889,Keyboard,received,32,wait
+27963,Stimulus,presented,4
+29393,Stimulus,played,b'operatie.wav'
+30193,Keyboard,received,32,wait
+30263,Stimulus,presented,4
+31717,Stimulus,played,b'operatie.wav'
+33134,Keyboard,received,32,wait
+33211,Stimulus,presented,4
+34688,Stimulus,played,b'operatie.wav'
+35652,Keyboard,received,32,wait
+35726,Stimulus,presented,4
+37246,Stimulus,played,b'operatie.wav'
+38162,Keyboard,received,32,wait
+38225,Stimulus,presented,4
+39745,Stimulus,played,b'opelakoe.wav'
+41027,Keyboard,received,32,wait
+41107,Stimulus,presented,4
+42348,Stimulus,played,b'opelakoe.wav'
+42383,Keyboard,received,32,wait
+42431,Stimulus,presented,4
+43522,Stimulus,played,b'opelakoe.wav'
+43788,Keyboard,received,32,wait
+43872,Stimulus,presented,4
+45744,Stimulus,played,b'opelakoe.wav'
+47067,Keyboard,received,32,wait
+47069,Experiment,ended
+47077,Data,saved
+47105,Stimulus,presented,8

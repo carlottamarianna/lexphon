@@ -1,0 +1,30 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 11:27:21
+#sha1: 9c9893
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10474,design,log,
+#design: #exp: Visual Detection
+#design: #dvn: trial,wait,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10474,design,logged,
+10474,Experiment,started
+10566,Stimulus,presented,3
+11114,Keyboard,received,32,wait
+11187,Stimulus,presented,2
+12825,Stimulus,played,b'opelakoe.wav'
+14367,Keyboard,received,32,wait
+14460,Stimulus,presented,2
+15627,Stimulus,played,b'opelakoe.wav'
+16927,Keyboard,received,32,wait
+17010,Stimulus,presented,2
+18689,Stimulus,played,b'opelakoe.wav'
+20003,Keyboard,received,32,wait
+20076,Stimulus,presented,2
+21433,Stimulus,played,b'opelakoe.wav'
+22695,Keyboard,received,32,wait
+22698,Experiment,ended
+22706,Data,saved
+22723,Stimulus,presented,6

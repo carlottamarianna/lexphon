@@ -1,0 +1,80 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 12:14:02
+#sha1: 60cdfc
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='LAPTOP-RSLBR9B6', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10797,design,log,
+#design: #exp: Phonological Detection
+#design: #dvn: trial,wait,respkey,RT,word/pseudo
+#design: block_cnt,block_id,trial_cnt,trial_id
+10798,design,logged,
+10798,Experiment,started
+10860,Stimulus,presented,8
+12205,Keyboard,received,32,wait
+12218,Stimulus,played,b'example.wav'
+15453,Keyboard,received,32,wait
+15508,Stimulus,presented,7
+17448,Stimulus,played,b'episode.wav'
+18690,Keyboard,received,32,wait
+18740,Stimulus,presented,7
+20598,Stimulus,played,b'zimaafopper.wav'
+21843,Keyboard,received,32,wait
+21887,Stimulus,presented,7
+23188,Stimulus,played,b'episode.wav'
+24350,Keyboard,received,32,wait
+24404,Stimulus,presented,7
+26037,Stimulus,played,b'episode.wav'
+27224,Keyboard,received,32,wait
+27270,Stimulus,presented,7
+29111,Stimulus,played,b'sinaasappel.wav'
+30067,Keyboard,received,32,wait
+30119,Stimulus,presented,7
+31501,Stimulus,played,b'opelakoe.wav'
+33212,Keyboard,received,32,wait
+33267,Stimulus,presented,7
+34313,Stimulus,played,b'apozabe.wav'
+35672,Keyboard,received,32,wait
+35733,Stimulus,presented,7
+36802,Stimulus,played,b'zimaafopper.wav'
+38536,Keyboard,received,32,wait
+38598,Stimulus,presented,7
+40017,Stimulus,played,b'operatie.wav'
+41134,Keyboard,received,32,wait
+41197,Stimulus,presented,7
+42863,Stimulus,played,b'operatie.wav'
+43894,Keyboard,received,32,wait
+43946,Stimulus,presented,7
+45318,Stimulus,played,b'operatie.wav'
+46276,Keyboard,received,32,wait
+46328,Stimulus,presented,7
+47748,Stimulus,played,b'opelakoe.wav'
+49161,Keyboard,received,32,wait
+49227,Stimulus,presented,7
+50276,Stimulus,played,b'apozabe.wav'
+51489,Keyboard,received,32,wait
+51542,Stimulus,presented,7
+52883,Stimulus,played,b'zimaafopper.wav'
+54257,Keyboard,received,32,wait
+54308,Stimulus,presented,7
+55976,Stimulus,played,b'opelakoe.wav'
+57703,Keyboard,received,32,wait
+57756,Stimulus,presented,7
+59297,Stimulus,played,b'sinaasappel.wav'
+60326,Keyboard,received,32,wait
+60370,Stimulus,presented,7
+62291,Stimulus,played,b'episode.wav'
+63494,Keyboard,received,32,wait
+63553,Stimulus,presented,7
+65458,Stimulus,played,b'episode.wav'
+66673,Keyboard,received,32,wait
+66719,Stimulus,presented,7
+67796,Stimulus,played,b'zimaafopper.wav'
+69380,Keyboard,received,32,wait
+69417,Stimulus,presented,7
+70535,Stimulus,played,b'apozabe.wav'
+71940,Keyboard,received,32,wait
+71952,Experiment,ended
+71956,Data,saved
+71983,Stimulus,presented,11

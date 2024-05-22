@@ -1,0 +1,25 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpd-file, coding: cp1252
+#date: Wed May 15 2024 10:13:17
+#--EXPERIMENT INFO
+#e mainfile: code.py
+#e sha1: 191e75
+#e modules: 
+#e Experiment: Phonological Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 159
+subject_id,trial,wait,respkey,RT
+159,0,1660,32,1067,"('W', 'operatie.wav', <expyriment.stimuli._textline.TextLine object at 0x0000017650653C88>)"
+159,0,1706,32,884,"('P', 'opelakoe.wav', <expyriment.stimuli._textline.TextLine object at 0x00000176508ABEC8>)"
+159,1,1559,32,1055,"('W', 'operatie.wav', <expyriment.stimuli._textline.TextLine object at 0x0000017650653C88>)"
+159,1,1428,32,933,"('P', 'opelakoe.wav', <expyriment.stimuli._textline.TextLine object at 0x00000176508ABEC8>)"
+159,2,1572,32,861,"('W', 'operatie.wav', <expyriment.stimuli._textline.TextLine object at 0x0000017650653C88>)"
+159,2,1262,32,880,"('P', 'opelakoe.wav', <expyriment.stimuli._textline.TextLine object at 0x00000176508ABEC8>)"
+159,3,1612,32,1292,"('W', 'operatie.wav', <expyriment.stimuli._textline.TextLine object at 0x0000017650653C88>)"
+159,3,1851,32,1281,"('P', 'opelakoe.wav', <expyriment.stimuli._textline.TextLine object at 0x00000176508ABEC8>)"
+159,4,1660,32,924,"('W', 'operatie.wav', <expyriment.stimuli._textline.TextLine object at 0x0000017650653C88>)"
+159,4,1337,32,923,"('P', 'opelakoe.wav', <expyriment.stimuli._textline.TextLine object at 0x00000176508ABEC8>)"
+159,5,1424,32,1269,"('W', 'operatie.wav', <expyriment.stimuli._textline.TextLine object at 0x0000017650653C88>)"
+159,5,1224,32,1448,"('P', 'opelakoe.wav', <expyriment.stimuli._textline.TextLine object at 0x00000176508ABEC8>)"
+159,6,1227,32,1630,"('W', 'operatie.wav', <expyriment.stimuli._textline.TextLine object at 0x0000017650653C88>)"
+159,6,1746,32,1471,"('P', 'opelakoe.wav', <expyriment.stimuli._textline.TextLine object at 0x00000176508ABEC8>)"

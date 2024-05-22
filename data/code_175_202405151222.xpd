@@ -1,0 +1,31 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpd-file, coding: cp1252
+#date: Wed May 15 2024 12:22:36
+#--EXPERIMENT INFO
+#e mainfile: code.py
+#e sha1: 06460c
+#e modules: 
+#e Experiment: Phonological Detection
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 175
+subject_id,trial,wait,respkey,RT,word/pseudo,where
+175,0,1693,None,None,PSEUDO,after UP
+175,1,1728,32,1529,PSEUDO,before UP
+175,2,1696,32,996,WORD,before UP
+175,3,1334,32,1336,PSEUDO,after UP
+175,4,1538,32,1159,WORD,after UP
+175,5,1733,32,1604,PSEUDO,after UP
+175,6,1164,32,1149,WORD,after UP
+175,7,1778,32,1304,WORD,before UP
+175,8,1411,None,None,WORD,before UP
+175,9,1220,32,970,WORD,before UP
+175,10,1707,32,1148,WORD,before UP
+175,11,1176,32,1411,PSEUDO,after UP
+175,12,1886,32,1405,PSEUDO,before UP
+175,13,1412,32,1401,PSEUDO,before UP
+175,14,1464,32,1387,PSEUDO,after UP
+175,15,1548,32,1690,PSEUDO,after UP
+175,16,1996,32,1094,WORD,before UP
+175,17,1226,None,None,WORD,before UP
+175,18,1953,32,1237,WORD,after UP
+175,19,1489,32,1696,PSEUDO,before UP
