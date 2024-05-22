@@ -86,7 +86,7 @@ instructions = stimuli.TextScreen("Instructions",
     When you have finished listening to the example, press again the spacebar to start the experiment.""")
    
 
-exp.add_data_variable_names(['trial', 'wait', 'respkey', 'RT', 'word/pseudo', 'where'])
+exp.add_data_variable_names(['trial', 'RT', 'word/pseudo', 'where'])
 
 control.start(skip_ready_screen=True)
 instructions.present()
@@ -122,12 +122,12 @@ for i_trial in range(N_TRIALS):
     else:
         where = "NA"
         
-    exp.data.add([i_trial, waiting_time, key, rt, item, where])
-    results.append([i_trial, waiting_time, key, rt, item, where])
+    exp.data.add([i_trial, rt, item, where])
+    results.append([i_trial, rt, item, where])
 
 with open('lexphon_results.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(['trial', 'wait', 'respkey', 'RT', 'word/pseudo', 'where'])
+        writer.writerow(['trial', 'RT', 'word/pseudo', 'where'])
         writer.writerows(results)
 
 
