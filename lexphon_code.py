@@ -19,9 +19,19 @@ zimaafopper = 'zimaafopper.wav'
 manuscript = 'manuscript.wav'
 namestlipt = 'namestlipt.wav'
 
+pagina = 'pagina.wav'
+pafime =  'pafime.wav'
+professor = 'professor.wav'
+plogeffol = 'plogeffol.wav'
+galop = 'galop.wav'
+farop = 'farop.wav'
+wetenschap = 'wetenschap.wav'
+vedemsgop = 'vedemsgop.wav'
 
 
-N_TRIALS = 15
+
+
+N_TRIALS = 20
 MIN_WAIT_TIME = 1000
 MAX_WAIT_TIME = 2000
 MAX_RESPONSE_DELAY = 2000
@@ -39,19 +49,28 @@ target5 = stimuli.Audio(sinaasappel)
 target6 = stimuli.Audio(zimaafopper)
 target7 = stimuli.Audio(manuscript)
 target8 = stimuli.Audio(namestlipt)
-
+target9 = stimuli.Audio(pagina)
+target10 = stimuli.Audio(pafime)
+target11 = stimuli.Audio(professor)
+target12 = stimuli.Audio(plogeffol)
+target13 = stimuli.Audio(galop)
+target14 = stimuli.Audio(farop)
+target15 = stimuli.Audio(wetenschap)
+target16 = stimuli.Audio(vedemsgop)
 
 
 blankscreen = stimuli.BlankScreen()
 
-targlist = [target1,target2, target3, target4, target5, target6, target7, target8] *(N_TRIALS //2)
+targlist = [target1,target2, target3, target4, target5, target6, target7, target8, target9, target10, target11, target12, target13, target14, target15, target16] *(N_TRIALS //2)
 random.shuffle(targlist)
 
-words = [target1, target3, target5, target7]
-pseudos = [target2, target4, target6, target8]
+words = [target1, target3, target5, target7, target9, target11, target13, target15]
+pseudos = [target2, target4, target6, target8, target10, target12, target14, target16]
 
 before_UP = [target1, target2, target3, target4]
 after_UP = [target5, target6, target7, target8]
+onset = [target9, target10, target11, target12]
+offset = [target13, target14, target15, target16]
 
 
 
@@ -96,6 +115,10 @@ for i_trial in range(N_TRIALS):
         where = "before UP"
     elif target in after_UP:
         where = "after UP"
+    elif target in onset:
+        where = "onset"
+    elif target in offset:
+        where = "offset"
     else:
         where = "NA"
         
