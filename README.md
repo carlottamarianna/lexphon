@@ -1,6 +1,5 @@
-# lexphon project
-## Lexical effects in phonemic processing: facilitatory or inhibitory?
-""" 
+# Lexical effects in phonemic processing: facilitatory or inhibitory?
+ 
 
 _The code for this experiment has been inspired by the following paper_
 Frauenfelder, U. H., Segui, J., Dijkstra, T. (1990). Lexical effects in phonemic processing: facilitatory or inhibitory? _Journal of Experimental Psychology: Human Perception and Performance_, 16 (1): 77-91. DOI: 10.1037/0096-1523.16.1.77
