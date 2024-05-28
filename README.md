@@ -1,4 +1,9 @@
+
 # Lexical effects in phonemic processing: facilitatory or inhibitory?
+
+
+
+
  
 
 _The code for this experiment has been inspired by the following paper:_
@@ -8,7 +13,10 @@ Frauenfelder, U. H., Segui, J., Dijkstra, T. (1990). Lexical effects in phonemic
 
 
 
+
+
 **ABSTRACT:**
+
 This article addresses the questions of how and when lexical information influences phoneme
 identification in a series of phoneme-monitoring experiments in which conflicting predictions of
 autonomous and interactive models were evaluated. Strong facilitatory lexical effects
@@ -18,6 +26,18 @@ target-bearing word. Furthermore, no evidence was obtained for lexically mediate
 on phoneme identification as predicted by the interactive activation model TRACE. These
 results taken together point to strong limitations in the way in which lexical information can
 affect the perception of unambiguous speech.
+
+
+
+
+
+**PROCEDURE (inspired by Frauenfelder, Segui, Dijkstra 1990)**
+
+Subjects are told they would hear lists of words and nonwords and are asked to make a speeded detection response (clicking the spacebar) to the target phoneme (/p/), which could occur at the **onset** of the word, not at onset but **before its uniqueness point** ,**after its uniqueness point** but not at offset, or at **offset**. The target phoneme is specified  both auditorily and visually in the instructions.
+
+By _uniqueness point_ the authors mean the point at which a word's initial sequence of phonemes is shared by no other word in a phonetic dictionary. 
+
+
 
 
 
@@ -165,6 +185,7 @@ control.end()
 
 
 
+
 **A SAMPLE OF RESULTS**
 
 |trial |RT   | word/pseudo | where    |
@@ -190,4 +211,11 @@ control.end()
 |18    |1667 |WORD         |after UP  | 
 |19    |1790 |PSEUDO       |onset     |
 
+
+
+
+
 **HOW TO INTEPRET RESULTS**
+
+The authors predicts that the RTs for words in the after UP condition and in the offset condition should be shorter than the RTs for pseudo-words  in the same conditions. 
+The participant in the example seemed to behave as predicted, as her average RT for words in the after UP and in the offset condition is smaller than the one for pseudowords in the same conditions. 
