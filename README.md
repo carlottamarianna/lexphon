@@ -27,7 +27,7 @@ on phoneme identification as predicted by the interactive activation model TRACE
 results taken together point to strong limitations in the way in which lexical information can
 affect the perception of unambiguous speech.
 
-
+<br><br><br>
 
 
 
@@ -37,7 +37,7 @@ Subjects are told they would hear lists of words and nonwords and are asked to m
 
 By _uniqueness point_ the authors mean the point at which a word's initial sequence of phonemes is shared by no other word in a phonetic dictionary. 
 
-
+<br><br><br>
 
 
 
@@ -182,7 +182,7 @@ control.end()
 ```
 
 
-
+<br><br><br>
 
 
 
@@ -207,15 +207,10 @@ control.end()
 |14    |1530 |PSEUDO       |offset    |
 |15    |1754 |PSEUDO       |after UP  |
 |16    |1836 |PSEUDO       |onset     |
-|17    |     |WORD         |after UP  |
+|17    |1104 |WORD         |after UP  |
 |18    |1667 |WORD         |after UP  | 
 |19    |1790 |PSEUDO       |onset     |
 
 
 
-
-
-**HOW TO INTEPRET RESULTS**
-
-The authors predicts that the RTs for words in the after UP condition and in the offset condition should be shorter than the RTs for pseudo-words  in the same conditions. 
-The participant in the example seemed to behave as predicted, as her average RT for words in the after UP and in the offset condition is smaller than the one for pseudowords in the same conditions. 
+<br><br><br>
